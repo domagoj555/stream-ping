@@ -1,4 +1,9 @@
 version: 1
+applications:
+  - name: stream-ping
+    build:
+      resources:
+        size: LARGE
 backend:
   phases:
     build:
