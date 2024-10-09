@@ -16,7 +16,7 @@ applications:
             - npm install -g @angular/cli
         build:
           commands:
-            - ng build --configuration=production
+            - NODE_OPTIONS="--max_old_space_size=4096" ng build --configuration=production
       artifacts:
         baseDirectory: dist/amplify-angular-template/browser
         files:
