@@ -20,8 +20,4 @@ frontend:
     baseDirectory: dist/amplify-angular-template/browser
     files:
       - '**/*'
-  cache:
-    paths:
-      - .npm/**/*
-      - node_modules/**/*
 
